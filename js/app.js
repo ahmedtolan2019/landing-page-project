@@ -134,8 +134,8 @@ addSection("test6");
 addSection("test7");
 
 //test add content to section
-addContentToSection("test6", "ahmed tolan fullstack developer", "../assets/pic.jpg");
-addContentToSection("test7", "ahmed tolan landing project", "../assets/pic.jpg");
+addContentToSection("test6", "ahmed tolan fullstack developer", "./assets/pic.jpg");
+addContentToSection("test7", "ahmed tolan landing project", "./assets/pic.jpg");
 //test remove
 //removeSection('test4');
 
