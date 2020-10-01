@@ -1,22 +1,57 @@
-# landing-page-project
+# project1 : landing page
 
-FWD project
+**Version 1.1.0**
+after udacity reviewers feedbacks i update my website.
 
-i did alot of things here
+A readme for landing page website.
 
-# using intersection observer
+## References that I have used
 
-i was planning to use scroll events and getboundry and these stuff but,
-i think if there is another way to know the is the section in view or not,
-and i had started searchig tell i found a magnificent object called
-intersection opserver that opserve all time an element intesrsecting with
-viewport and return a boolean value =>"isIntersecting" which i use to
-interact with the section in view
+---
 
-# responsive design
+**IntersectionObserver**
+it allows me to observe rhe intersection between the viewport and the a specific element,
+then return a boolean "isIntersecting" than return true if the element is in
+viewport.
+i learn it from youtube channel called "Kevin Powell"
+[channel link](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)
 
-# function to add new section
+- also i used w3s
 
-# function to add content to selected section
+## files
 
-# function to remove a selected section
+---
+
+there are 3 folders one contains style css files and one for javascript file and the last for
+assets files like images and icons
+also there are html file index and readme file
+
+## How to run the project
+
+---
+
+firstly, you need to add section by using this function
+
+```js
+addSection("id for the section");
+```
+
+then you can add content to this section
+
+```js
+addContentToSection("header", "some text", "path to the image");
+```
+
+then the sections will added and also a navigation links will added dynamicaly
+
+you can remove specific section by using
+
+```js
+removeSection("section id");
+```
+
+## License
+
+---
+
+© ahmed tolan - FWD - Udacity
